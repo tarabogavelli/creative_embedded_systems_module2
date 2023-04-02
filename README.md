@@ -8,9 +8,9 @@ This repository contains Arduino code written in C++ and Processing code written
 • ESP32 TTGO T-Display <br /> 
 • USB-C Cable <br /> 
 • 2020 MacBook Pro running Ventura 13.2 <br /> 
-• Joystick
-• Breadboard
-• 5 wires
+• Joystick <br /> 
+• Breadboard <br /> 
+• 5 wires <br /> 
 
 ## Steps
 ### Getting Arduino IDE
@@ -43,5 +43,5 @@ This repository contains Arduino code written in C++ and Processing code written
 • Pick a way to send data from ESP32 to Processing code, I recommend using Serial.print and printing some marker in between each value that way when parsing values in processing code you can split on the marker <br /> 
 
 
-![Installation](https://imgur.com/a/Gyy7Ci7) <br /> 
+![Installation](https://imgur.com/bkt23PN) <br /> 
 Link to blog post: https://medium.com/@tb2913/creative-embedded-systems-interactive-devices-module-blog-post-f07aa73487e8
