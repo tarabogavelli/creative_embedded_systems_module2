@@ -25,22 +25,22 @@ This repository contains Arduino code written in C++ and Processing code written
 • Open a new file in the Arduino IDE and start writing code! Click the upload button to flash it onto the ESP32 or download this file and upload it to see the generative art <br /> 
 
 ### Setting up software
-• Download Processing 
-• At top of processing file include "import processing.serial.*;" to use serial
+• Download Processing <br /> 
+• At top of processing file include "import processing.serial.*;" to use serial <br /> 
 
 ### Setting up hardware
-• Push ESP32 pins into middle of breadboard
-• Push Joystick pins into breadboard above ESP32
-• Connect pin labeled as GND (ground) on joystick to G (ground) pin of ESP32 using a wire
-• Connect pin labeled +5V on joystick to 3V pin on top right of ESP32 using another wire
-• Connect pin labeled VRX on joystick to pin 27 on ESP32
-• Connect pin labeled VRY on joystick to pin 26 on ESP32
-• Connect pin labeled SW on joystick to pin 25 on ESP32
+• Push ESP32 pins into middle of breadboard <br /> 
+• Push Joystick pins into breadboard above ESP32 <br /> 
+• Connect pin labeled as GND (ground) on joystick to G (ground) pin of ESP32 using a wire <br /> 
+• Connect pin labeled +5V on joystick to 3V pin on top right of ESP32 using another wire <br /> 
+• Connect pin labeled VRX on joystick to pin 27 on ESP32 <br /> 
+• Connect pin labeled VRY on joystick to pin 26 on ESP32 <br /> 
+• Connect pin labeled SW on joystick to pin 25 on ESP32 <br /> 
 
 ### Writing Arduino
-• Make sure to recall which pin number corresponded to various joystick functions 
-• For the SW joystick pin number remmeber to set pinmode to INPUT_PULLUP and use digitalRead since this is the button component of the joystick
-• Pick a way to send data from ESP32 to Processing code, I recommend using Serial.print and printing some marker in between each value that way when parsing values in processing code you can split on the marker
+• Make sure to recall which pin number corresponded to various joystick functions <br /> 
+• For the SW joystick pin number remmeber to set pinmode to INPUT_PULLUP and use digitalRead since this is the button component of the joystick <br /> 
+• Pick a way to send data from ESP32 to Processing code, I recommend using Serial.print and printing some marker in between each value that way when parsing values in processing code you can split on the marker <br /> 
 
 
 ![Installation](https://imgur.com/a/Gyy7Ci7) <br /> 
