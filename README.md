@@ -2,7 +2,7 @@
 
 # Interactive Devices
 
-This repository contains Arduino code written in C++ and Processing code written in Java for an interactive devices project using an ESP32 and a joystick to move a dot around a screen.
+This repository contains Arduino code written in C++ and Processing code written in Java for an interactive devices project using an ESP32 and a joystick to move a dot around a screen. The ESP32 and joystick are connected to eachother using single core wires and a breadboard. The ESP32 runs Arduino code which sends information from the sensors (joystick and switch) to the processing code. The processing code creates a display with a black background with the word RAINBOW written in rainbow colors and a small white dot. The dot can be moved around the screen using the joystick and when the switch is pressed the dot enlarges and both the dot and text start rapidly changing color. Images and videos and shown below.
 
 ## Materials
 • ESP32 TTGO T-Display <br /> 
@@ -10,7 +10,7 @@ This repository contains Arduino code written in C++ and Processing code written
 • 2020 MacBook Pro running Ventura 13.2 <br /> 
 • Joystick <br /> 
 • Breadboard <br /> 
-• 5 wires <br /> 
+• 5 single core wires <br /> 
 
 ## Steps
 ### Getting Arduino IDE
@@ -25,7 +25,7 @@ This repository contains Arduino code written in C++ and Processing code written
 • Open a new file in the Arduino IDE and start writing code! Click the upload button to flash it onto the ESP32 or download this file and upload it to see the generative art <br /> 
 
 ### Setting up software
-• Download Processing <br /> 
+• Download [Processing] (https://processing.org/download) <br /> 
 • At top of processing file include "import processing.serial.*;" to use serial <br /> 
 
 ### Setting up hardware
