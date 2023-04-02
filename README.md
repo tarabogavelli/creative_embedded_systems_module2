@@ -43,5 +43,5 @@ This repository contains Arduino code written in C++ and Processing code written
 • Pick a way to send data from ESP32 to Processing code, I recommend using Serial.print and printing some marker in between each value that way when parsing values in processing code you can split on the marker <br /> 
 
 
-![Installation](https://imgur.com/bkt23PN) <br /> 
+![Installation](https://imgur.com/gallery/oO2Liv2) <br /> 
 Link to blog post: https://medium.com/@tb2913/creative-embedded-systems-interactive-devices-module-blog-post-f07aa73487e8
