@@ -41,6 +41,7 @@ This repository contains Arduino code written in C++ and Processing code written
 • Make sure to recall which pin number corresponded to various joystick functions <br /> 
 • For the SW joystick pin number remmeber to set pinmode to INPUT_PULLUP and use digitalRead since this is the button component of the joystick <br /> 
 • Pick a way to send data from ESP32 to Processing code, I recommend using Serial.print and printing some marker in between each value that way when parsing values in processing code you can split on the marker <br /> 
+<img width="1399" alt="Screenshot 2023-04-02 at 4 46 43 PM" src="https://user-images.githubusercontent.com/87334044/229385267-a891c727-455a-4291-986a-686b5f13eca0.png">
 
 
 ![Installation](https://imgur.com/gallery/oO2Liv2) <br /> 
